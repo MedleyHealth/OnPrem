@@ -1,0 +1,15 @@
+name: Pull request approval workflow
+on: pull_request_review
+
+jobs:
+  labelWhenApproved:
+    name: Label PR by approval
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Label PR by approval
+      uses: pullreminders/label-when-approved-action
+      env: 
+        APPROVALS: 1
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ADD_LABEL: approved
+        REMOVE_LABEL: "review"
