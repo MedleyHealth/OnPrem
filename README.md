@@ -13,19 +13,24 @@ OffPrem is a cloud-based deployment that manages the research across healthcare 
 
 First, do no harm. 
 
+* Follow principles of differential privacy in your code
+* Research must be secure to be private
+
 We must protect the privacy of our patients. We promise - mathematically - that patient privacy will be protected.   
 
-### 2. Transparency - of processes
+### 2. Transparency - of research
 
 Second, share knowledge. 
 
-We can all go further if we build off each other. We make our research processes and results publicly available.
+* Do not be transparent if it threatens patient privacy
+* Add documentation to your code that explains your intention and expected use
 
 ### 3. Accuracy - of research
 
 Third, find truth. 
 
-Only after we protect patient privacy and share our knowledge do we strive for the most accurate research.
+* Do not go for higher accuracy if it threatens patient privacy or research transparency
+* Build your code from state-of-the-art knowledge
 
 ## Architecture
 
