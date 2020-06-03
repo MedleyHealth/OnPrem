@@ -16,8 +16,6 @@ First, do no harm.
 * Follow principles of differential privacy in your code
 * Research must be secure to be private
 
-We must protect the privacy of our patients. We promise - mathematically - that patient privacy will be protected.   
-
 ### 2. Transparency - of research
 
 Second, share knowledge. 
