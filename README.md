@@ -13,6 +13,7 @@ OffPrem is a cloud-based deployment that manages the research across healthcare 
 
 First, do no harm. 
 
+* Only run queries on de-identified data
 * Follow principles of differential privacy in your code
 * Research must be secure to be private
 
